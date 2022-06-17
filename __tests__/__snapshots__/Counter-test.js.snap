@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  isDark={false}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(0, 71, 97)",
+        "height": 844,
+        "justifyContent": "center",
+        "paddingBottom": 222,
+        "paddingLeft": 115,
+        "paddingRight": 115,
+        "paddingTop": 222,
+        "width": 390,
+      },
+    ]
+  }
+>
+  <View
+    isDark={false}
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "backgroundColor": "rgb(0, 71, 97)",
+          "left": 10,
+          "paddingBottom": 30,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 30,
+          "position": "absolute",
+          "top": 5,
+        },
+      ]
+    }
+  >
+    <Text
+      isDark={false}
+      style={
+        Array [
+          Object {
+            "color": "rgb(200, 242, 247)",
+            "fontSize": 16,
+            "marginBottom": 12,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 12,
+          },
+        ]
+      }
+    >
+      light
+      mode
+    </Text>
+    <RCTSwitch
+      accessibilityRole="switch"
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 31,
+          "width": 51,
+        }
+      }
+      thumbTintColor="rgb(255, 255, 255)"
+      value={false}
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 24,
+          "justifyContent": "center",
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 160,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+            "fontWeight": "700",
+            "letterSpacing": 0,
+          },
+        ]
+      }
+    >
+      -1
+    </Text>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#8cd6bd",
+          "fontSize": 64,
+          "fontWeight": "700",
+          "height": 71,
+          "letterSpacing": 0,
+          "marginBottom": 103,
+          "marginTop": 104,
+          "textAlign": "center",
+          "width": 160,
+        },
+      ]
+    }
+  >
+    0
+  </Text>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderRadius": 24,
+          "justifyContent": "center",
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+          "width": 160,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontSize": 24,
+            "fontWeight": "700",
+            "letterSpacing": 0,
+          },
+        ]
+      }
+    >
+      +1
+    </Text>
+  </View>
+</View>
+`;
